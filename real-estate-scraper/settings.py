@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for leboncoin project
+# Scrapy settings for real-estate-scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'leboncoin'
+BOT_NAME = 'real-estate-scraper'
 
-SPIDER_MODULES = ['leboncoin.spiders']
-NEWSPIDER_MODULE = 'leboncoin.spiders'
+SPIDER_MODULES = ['real-estate-scraper.spiders']
+NEWSPIDER_MODULE = 'real-estate-scraper.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'leboncoin (+http://www.yourdomain.com)'
+#USER_AGENT = 'real-estate-scraper (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'leboncoin.middlewares.LeboncoinSpiderMiddleware': 543,
+#    'real-estate-scraper.middlewares.LeboncoinSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'leboncoin.middlewares.LeboncoinDownloaderMiddleware': 543,
+#    'real-estate-scraper.middlewares.LeboncoinDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'leboncoin.pipelines.LeboncoinPipeline': 300,
+#    'real-estate-scraper.pipelines.LeboncoinPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
